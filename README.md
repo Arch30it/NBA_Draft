@@ -1,6 +1,16 @@
 NBA_Draft
 ==============================
+The NBA draft is an annual event where teams pick players studying in American colleges and
+from international professional leagues to join the rosters. These picked players based on
+their statistics will be selected to play in the NBA league. The primary objective of the project
+is to build a binary classification model which in turn when trained will help predict whether a
+particular player based on his numbers will be drafted to get into the NBA.
 
+The model built should first be used to train on the known data after which its performance
+can be tested on the validation and testing, i.e. on the unseen data. The models can be
+tuned on different hyperparameters based on the need. The metric we will use to assess the
+performance of the model is the roc_auc_score, which basically computes the area under
+the receiver operating characteristic curve from prediction scores.
 NBA Draft Project
 
 Project Organization
